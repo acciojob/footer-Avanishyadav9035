@@ -1,1 +1,97 @@
 /* your code here */
+  * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      footer {
+        background: #000;
+        color: #fff;
+        padding: 20px 0;
+      }
+
+      .content {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+      }
+
+      .logo_name {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .media-icons {
+        display: flex;
+        gap: 10px;
+      }
+
+      .media-icons a {
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+        background: #333;
+        padding: 10px;
+        border-radius: 50%;
+      }
+
+      .link-boxes {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .box {
+        list-style: none;
+        min-width: 200px;
+      }
+
+      .box .link_name {
+        font-size: 18px;
+        font-weight: bold;
+        border-bottom: 2px solid #fff;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+      }
+
+      .box li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+      }
+
+      .contact-info p {
+        margin: 5px 0;
+      }
+
+      .bottom-details {
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #444;
+      }
+
+      @media (max-width: 768px) {
+        .top {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .link-boxes {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
